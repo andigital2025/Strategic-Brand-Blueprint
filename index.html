@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Crystal-Clear Brand Clarity in 3 Weeks | Strategic Brand Blueprint</title>
+    <meta name="description" content="Stop winging your brand messaging. Get a complete brand voice guide, positioning strategy, and content framework in just 3 weeks. Done-with-you strategic brand foundation for consultants and coaches.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+/* ===================================
+   Brand Variables
+   =================================== */
+:root {
+    --sage-green: #314540;
+    --terracotta: #B05A2B;
+    --cream-sand: #EAE2D5;
+    --white: #FFFFFF;
+    --text-dark: #2C2C2C;
+    --text-light: #666666;
+    
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
+    
+    --transition: 1.2s ease;
+    --transition-fast: 0.6s ease;
+}
+
+/* ===================================
+   Reset & Base Styles
+   =================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    line-height: 1.7;
+    background-color: var(--cream-sand);
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* ===================================
+   Typography
+   =================================== */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    line-height: 1.3;
+    color: var(--sage-green);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--sage-green);
+}
+
+p {
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* ===================================
+   Header
+   =================================== */
+.header {
+    background-color: var(--sage-green);
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--cream-sand);
+    font-weight: 600;
+}
+
+/* ===================================
+   Buttons
+   =================================== */
+.btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--terracotta);
+    color: var(--white);
+    border-color: var(--terracotta);
+}
+
+.btn-primary:hover {
+    background-color: #8f4622;
+    border-color: #8f4622;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(176, 90, 43, 0.3);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--cream-sand);
+    border-color: var(--cream-sand);
+}
+
+.btn-outline:hover {
+    background-color: var(--cream-sand);
+    color: var(--sage-green);
+}
+
+.btn-large {
+    padding: 1.25rem 3rem;
+    font-size: 1.125rem;
+}
+
+/* ===================================
+   Hero Section
+   =================================== */
+.hero {
+    background: linear-gradient(135deg, var(--sage-green) 0%, #3d5550 100%);
+    color: var(--cream-sand);
+    padding: 8rem 0 6rem;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--cream-sand);
+    font-size: 3.5rem;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+.hero-subtitle {
+    font-size: 1.35rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    color: var(--cream-sand);
+    opacity: 0.95;
+}
+
+.hero-cta {
+    margin-top: 3rem;
+}
+
+.hero-cta .btn {
+    margin-bottom: 1rem;
+}
+
+.hero-cta-subtext {
+    color: var(--cream-sand);
+    opacity: 0.9;
+    font-size: 0.95rem;
+    margin-top: 0.75rem;
+}
+
+/* ===================================
+   Problem Section
+   =================================== */
+.problem-section {
+    padding: 6rem 0;
+    background-color: var(--white);
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.large-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: var(--text-dark);
+}
+
+.emphasis {
+    font-weight: 600;
+    color: var(--sage-green);
+    font-size: 1.5rem;
+}
+
+.problem-box {
+    background-color: var(--cream-sand);
+    padding: 3rem;
+    border-left: 4px solid var(--terracotta);
+    margin: 3rem 0;
+}
+
+.problem-box h3 {
+    color: var(--sage-green);
+    margin-bottom: 1.5rem;
+}
+
+.result {
+    margin-top: 1.5rem;
+    color: var(--terracotta);
+    font-size: 1.2rem;
+}
+
+/* ===================================
+   Introducing Section
+   =================================== */
+.introducing-section {
+    padding: 6rem 0;
+    background-color: var(--cream-sand);
+}
+
+.section-title {
+    color: var(--sage-green);
+}
+
+.section-title.centered {
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 2rem;
+    font-size: 1.2rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all var(--transition-fast);
+}
+
+.benefit-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(49, 69, 64, 0.15);
+}
+
+.check {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.benefit-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.closing-statement {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--sage-green);
+    margin: 3rem 0 2rem;
+}
+
+.cta-container {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+/* ===================================
+   Transformation Section
+   =================================== */
+.transformation-section {
+    padding: 6rem 0;
+    background-color: var(--white);
+}
+
+.transformation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.before-state, .after-state {
+    padding: 3rem;
+    border-radius: 12px;
+    background-color: var(--cream-sand);
+}
+
+.before-state {
+    border-left: 6px solid #e74c3c;
+}
+
+.after-state {
+    border-left: 6px solid var(--sage-green);
+}
+
+.before-state h3, .after-state h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.before-state h3 {
+    color: #c0392b;
+}
+
+.after-state h3 {
+    color: var(--sage-green);
+}
+
+.transformation-grid ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transformation-grid li {
+    padding: 0.75rem 0;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.before-state li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.after-state li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--sage-green);
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/* ===================================
+   What's Included Section
+   =================================== */
+.whats-included-section {
+    padding: 6rem 0;
+    background-color: var(--cream-sand);
+}
+
+.included-items {
+    display: grid;
+    gap: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.included-item {
+    padding: 2.5rem;
+    background-color: var(--white);
+    border-radius: 8px;
+    transition: all var(--transition);
+    border-left: 4px solid var(--sage-green);
+}
+
+.included-item:hover {
+    border-left-color: var(--terracotta);
+    transform: translateX(8px);
+    box-shadow: 0 8px 24px rgba(49, 69, 64, 0.1);
+}
+
+.included-item h3 {
+    color: var(--sage-green);
+    margin-bottom: 1rem;
+}
+
+.included-item p {
+    margin: 0;
+    color: var(--text-dark);
+}
+
+/* ===================================
+   Who This Is For Section
+   =================================== */
+.who-section {
+    padding: 6rem 0;
+    background-color: var(--cream-sand);
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.good-fit, .not-fit {
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.good-fit {
+    border-top: 4px solid var(--sage-green);
+}
+
+.not-fit {
+    border-top: 4px solid var(--terracotta);
+}
+
+.good-fit h3 {
+    color: var(--sage-green);
+    margin-bottom: 1.5rem;
+}
+
+.not-fit h3 {
+    color: var(--terracotta);
+    margin-bottom: 1.5rem;
+}
+
+.check-list, .x-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li, .x-list li {
+    padding: 0.75rem 0;
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.check-list li:before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+
+.x-list li:before {
+    content: "❌";
+    position: absolute;
+    left: 0;
+}
+
+/* ===================================
+   How It Works Section
+   =================================== */
+.how-it-works-section {
+    padding: 6rem 0;
+    background-color: var(--white);
+}
+
+.timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2.5rem;
+}
+
+.timeline-item {
+    background-color: var(--cream-sand);
+    padding: 2.5rem;
+    border-radius: 8px;
+    position: relative;
+    transition: all var(--transition);
+}
+
+.timeline-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px rgba(49, 69, 64, 0.15);
+}
+
+.week-badge {
+    display: inline-block;
+    background-color: var(--terracotta);
+    color: var(--white);
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.timeline-item h3 {
+    color: var(--sage-green);
+    margin-bottom: 1.5rem;
+}
+
+.timeline-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item li {
+    padding: 0.5rem 0;
+    line-height: 1.7;
+}
+
+.time-commitment {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--sage-green);
+    margin-top: 3rem;
+}
+
+/* ===================================
+   Investment Section
+   =================================== */
+.investment-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--sage-green) 0%, #3d5550 100%);
+    color: var(--cream-sand);
+}
+
+.investment-section .section-title {
+    color: var(--cream-sand);
+}
+
+.pricing-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 4rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.2);
+}
+
+.price-main {
+    font-family: var(--font-heading);
+    color: var(--terracotta);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.currency {
+    font-size: 3rem;
+    vertical-align: super;
+}
+
+.price-subtext {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.normal-price {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 2.5rem;
+}
+
+.investment-details {
+    text-align: left;
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background-color: var(--cream-sand);
+    border-radius: 8px;
+}
+
+.detail-item {
+    padding: 0.75rem 0;
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+.detail-item strong {
+    color: var(--sage-green);
+}
+
+.pricing-card .btn {
+    margin-top: 2rem;
+}
+
+.spots-remaining {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    margin: 1.5rem auto 0;
+    display: inline-block;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* ===================================
+   Why This Works Section
+   =================================== */
+.why-works-section {
+    padding: 6rem 0;
+    background-color: var(--cream-sand);
+}
+
+.intro-para, .emphasis-para, .closing-para, .result-para {
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    font-size: 1.2rem;
+}
+
+.emphasis-para {
+    font-weight: 600;
+    color: var(--sage-green);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.content-box {
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 3rem auto;
+    border-left: 4px solid var(--terracotta);
+}
+
+.benefits-simple {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.benefit {
+    padding: 1rem;
+    background-color: var(--cream-sand);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.result-para {
+    font-weight: 600;
+    color: var(--terracotta);
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ===================================
+   CTA Section
+   =================================== */
+.cta-section {
+    padding: 6rem 0;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.cta-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--sage-green);
+    margin: 2rem 0 1rem;
+}
+
+.cta-subtext {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.no-pressure {
+    margin-top: 2rem;
+    font-style: italic;
+    color: var(--text-light);
+}
+
+/* ===================================
+   FAQ Section
+   =================================== */
+.faq-section {
+    padding: 6rem 0;
+    background-color: var(--cream-sand);
+}
+
+.faq-items {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background-color: var(--white);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--sage-green);
+    transition: all var(--transition-fast);
+}
+
+.faq-item:hover {
+    border-left-color: var(--terracotta);
+    box-shadow: 0 8px 24px rgba(49, 69, 64, 0.1);
+}
+
+.faq-item h3 {
+    color: var(--sage-green);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-body);
+}
+
+.faq-item p {
+    margin: 0;
+    color: var(--text-dark);
+}
+
+/* ===================================
+   Social Proof Section
+   =================================== */
+.social-proof-section {
+    padding: 4rem 0;
+    background-color: var(--white);
+    border-top: 2px solid var(--cream-sand);
+    border-bottom: 2px solid var(--cream-sand);
+}
+
+.proof-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stat-item {
+    padding: 1.5rem;
+}
+
+.stat-number {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--terracotta);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+/* ===================================
+   Guarantee Section
+   =================================== */
+.guarantee-section {
+    padding: 5rem 0;
+    background-color: var(--cream-sand);
+}
+
+.guarantee-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 12px;
+    border: 3px solid var(--sage-green);
+    text-align: center;
+}
+
+.guarantee-box h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--sage-green);
+}
+
+.guarantee-box p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.guarantee-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* ===================================
+   Final CTA Section
+   =================================== */
+.final-cta-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--sage-green) 0%, #3d5550 100%);
+    color: var(--cream-sand);
+    text-align: center;
+}
+
+.final-cta-section .section-title {
+    color: var(--cream-sand);
+}
+
+.final-text {
+    font-size: 1.4rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    color: var(--cream-sand);
+}
+
+.final-cta-note {
+    margin-top: 1.5rem;
+    color: var(--cream-sand);
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.95;
+}
+
+/* ===================================
+   Footer
+   =================================== */
+.footer {
+    background-color: var(--white);
+    padding: 4rem 0 2rem;
+}
+
+.signature {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.signature p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--sage-green);
+}
+
+.company {
+    font-style: italic;
+    color: var(--text-light);
+}
+
+.ps {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--cream-sand);
+    border-radius: 8px;
+    border-left: 4px solid var(--terracotta);
+}
+
+.ps p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* ===================================
+   Animations
+   =================================== */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--transition), transform var(--transition);
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===================================
+   Responsive Design
+   =================================== */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .hero {
+        padding: 5rem 0 4rem;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .transformation-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .proof-stats {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    .large-text {
+        font-size: 1.2rem;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .two-column {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .problem-box, .included-item, .timeline-item {
+        padding: 2rem;
+    }
+    
+    .pricing-card {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .price-main {
+        font-size: 4rem;
+    }
+    
+    .btn {
+        padding: 0.875rem 2rem;
+    }
+    
+    .btn-large {
+        padding: 1rem 2.5rem;
+        font-size: 1rem;
+    }
+    
+    section {
+        padding: 4rem 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .price-main {
+        font-size: 3rem;
+    }
+    
+    .currency {
+        font-size: 2rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Flow Systems Consulting</div>
+            <a href="#book-call" class="btn btn-outline">Book Your Call</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <div class="container">
+            <h1 class="hero-title">Your messaging keeps shifting. Your audience isn't clear. And explaining what you actually do takes way too many words.</h1>
+            <p class="hero-subtitle">Here's what's costing you clients: not your skills, not your experience—unclear positioning.</p>
+            <p class="hero-subtitle">You don't need another course or six months of trial and error. You need a strategic brand foundation that works—built in three weeks.</p>
+            <div class="hero-cta">
+                <a href="#book-call" class="btn btn-primary btn-large">Book Your Free Brand Clarity Call</a>
+                <p class="hero-cta-subtext">30-minute strategy session • No pressure • Just honest conversation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section fade-in">
+        <div class="container">
+            <div class="content-wrapper">
+                <p class="large-text">Your messaging is inconsistent. Your voice shifts by platform. And every piece of content feels like you're starting from scratch.</p>
+                <p class="large-text emphasis">The result? Lost clients, wasted time, and zero confidence in how you show up.</p>
+                
+                <div class="problem-box">
+                    <h3>Here's what's actually happening:</h3>
+                    <p>You're trying to build a business without a foundation. Every piece of content is a fresh start. Every sales conversation feels like you're figuring it out on the fly. Your future team (or VA, or contractors) won't be able to represent your brand because you can't even articulate it clearly yet.</p>
+                    <p class="result"><strong>The result?</strong> Inconsistent messaging. Unclear positioning. And a brand that doesn't feel like yours.</p>
+                </div>
+
+                <p class="large-text">You don't need another course. You don't need six months of "finding your voice."</p>
+                <p class="large-text emphasis">You need a clear, strategic brand foundation. And you need it now—not six months from now.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducing Section -->
+    <section class="introducing-section fade-in">
+        <div class="container">
+            <h2 class="section-title centered">Introducing: The Strategic Brand Blueprint</h2>
+            <p class="intro-text">A three-week sprint that gives you everything you need to show up consistently, attract the right clients, and communicate with clarity.</p>
+            <p class="intro-text">This isn't theory. It's not a DIY template. It's a done-with-you process where I build your complete brand foundation—customized for your business, your audience, and how you actually work.</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>A brand voice guide that sounds like you (not a corporate robot)</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>Crystal-clear target audience and ideal client profiles</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>Positioning that differentiates you from everyone else in your space</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>Messaging frameworks you can use across every platform</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>Content pillars so you always know what to talk about</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✅</span>
+                    <p>Real examples of your voice in action</p>
+                </div>
+            </div>
+
+            <p class="closing-statement">No more guessing. No more starting from scratch. Just clarity.</p>
+            
+            <div class="cta-container">
+                <a href="#book-call" class="btn btn-primary">Book Your Free Clarity Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section class="transformation-section fade-in">
+        <div class="container">
+            <h2 class="section-title centered">The Transformation</h2>
+            
+            <div class="transformation-grid">
+                <div class="before-state">
+                    <h3>❌ Before (Where You Are Now)</h3>
+                    <ul>
+                        <li>Creating content feels like starting from scratch every time</li>
+                        <li>Your messaging changes based on your mood or platform</li>
+                        <li>Sales conversations feel inconsistent and uncertain</li>
+                        <li>You can't clearly articulate what makes you different</li>
+                        <li>Hiring help feels impossible—no one understands your brand well enough to represent it</li>
+                        <li>Every post, email, or pitch requires hours of overthinking</li>
+                    </ul>
+                </div>
+                
+                <div class="after-state">
+                    <h3>✅ After (Where You'll Be)</h3>
+                    <ul>
+                        <li>Clear, confident messaging across every platform</li>
+                        <li>A brand voice guide that sounds authentically like you</li>
+                        <li>Sales conversations that flow naturally and convert</li>
+                        <li>Crystal-clear positioning that differentiates you instantly</li>
+                        <li>A team (or future team) that can represent your brand perfectly</li>
+                        <li>Content creation that's 10x faster with your pillars and examples</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included Section -->
+    <section class="whats-included-section fade-in">
+        <div class="container">
+            <h2 class="section-title">What's Included</h2>
+            
+            <div class="included-items">
+                <div class="included-item">
+                    <h3>90-Minute Strategy & Discovery Call</h3>
+                    <p>We dig deep into your business, your vision, your audience, and where you're getting stuck. This isn't a surface-level conversation—this is where we map what makes you different and what your clients actually need to hear.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>Custom Brand Voice & Tone Guide</h3>
+                    <p>Your unique voice attributes, language preferences, signature phrases, and what to avoid. This is the document your team (or future team) will use to sound like you—even when you're not writing.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>Target Audience & Ideal Client Profiles</h3>
+                    <p>Who you serve, what they care about, what keeps them up at night, and how they make decisions. No more "everyone is my client." We get specific about who you serve and why they choose you.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>Positioning & Messaging Strategy</h3>
+                    <p>Your unique selling proposition, your positioning statement, and the key messages that differentiate you. This is the foundation for every sales conversation, website page, and pitch you'll ever make.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>Content Pillars with Voice Examples</h3>
+                    <p>What to talk about, how to talk about it, and real examples written in your voice. So you never stare at a blank screen wondering what to post.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>60-Minute Delivery & Walkthrough Call</h3>
+                    <p>I present your complete brand foundation, walk you through how to use it, and answer all your questions. You'll leave this call knowing exactly how to implement everything.</p>
+                </div>
+
+                <div class="included-item">
+                    <h3>14 Days Post-Delivery Support</h3>
+                    <p>Questions after delivery? Need a second set of eyes on a piece of content? I'm available via email for two weeks to make sure you feel confident implementing your foundation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who This Is For Section -->
+    <section class="who-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Who This Is For</h2>
+            
+            <div class="two-column">
+                <div class="good-fit">
+                    <h3>You're a great fit if:</h3>
+                    <ul class="check-list">
+                        <li>You're a consultant, coach, service provider, or founder building something real</li>
+                        <li>You're early-stage and want to get your foundation RIGHT from the start (not rebuild it later)</li>
+                        <li>You're scaling from solo to team and need to train others on your brand</li>
+                        <li>You've been "winging it" with your messaging and it's slowing you down</li>
+                        <li>You know you need clarity but don't have months to figure it out</li>
+                        <li>You value strategic thinking paired with practical execution</li>
+                    </ul>
+                </div>
+
+                <div class="not-fit">
+                    <h3>This isn't for you if:</h3>
+                    <ul class="x-list">
+                        <li>You haven't talked to any clients or tested your offer yet (you need market validation first)</li>
+                        <li>You're still figuring out what you're selling (business model is completely unclear)</li>
+                        <li>You want a DIY template to fill out yourself (this is done-with-you)</li>
+                        <li>You want a website redesign or logo design (this is strategic foundation, not visual design)</li>
+                        <li>You're not ready to invest in your brand foundation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How This Works Section -->
+    <section class="how-it-works-section fade-in">
+        <div class="container">
+            <h2 class="section-title">How This Works</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="week-badge">Week 1</div>
+                    <h3>Discovery & Build</h3>
+                    <ul>
+                        <li><strong>Day 1-2:</strong> We have our 90-minute strategy call</li>
+                        <li><strong>Days 3-7:</strong> I build your complete brand foundation document</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="week-badge">Week 2</div>
+                    <h3>Review & Refine</h3>
+                    <ul>
+                        <li><strong>Days 8-10:</strong> You review the draft and provide feedback</li>
+                        <li><strong>Days 11-14:</strong> I incorporate your feedback and refine</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="week-badge">Week 3</div>
+                    <h3>Delivery & Support</h3>
+                    <ul>
+                        <li><strong>Day 15:</strong> We have our 60-minute delivery call where I walk you through everything</li>
+                        <li><strong>Day 16:</strong> You receive the final brand foundation document</li>
+                        <li><strong>Days 17-30:</strong> I'm available via email for questions and implementation support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="time-commitment">Total time commitment from you: 3-4 hours across three weeks (two calls + one review session)</p>
+        </div>
+    </section>
+
+    <!-- Investment Section -->
+    <section class="investment-section fade-in">
+        <div class="container">
+            <h2 class="section-title centered">The Investment</h2>
+            
+            <div class="pricing-card">
+                <div class="price-main">
+                    <span class="currency">$</span>
+                    <span class="amount">1,500</span>
+                </div>
+                <p class="price-subtext"><strong>Limited to the first 3 clients at this introductory rate</strong></p>
+                <p class="spots-remaining" id="spots-remaining">Only <strong>3 spots</strong> remaining at this rate</p>
+                <p class="normal-price">Normal investment: <strong>$2,500</strong></p>
+                
+                <div class="investment-details">
+                    <div class="detail-item">
+                        <strong>Timeline:</strong> 21 days (3 weeks) from kickoff to final delivery
+                    </div>
+                    <div class="detail-item">
+                        <strong>Payment:</strong> 50% due at booking, 50% due at delivery call
+                    </div>
+                    <div class="detail-item">
+                        <strong>What you get:</strong> Your complete Strategic Brand Blueprint (typically 20-30 pages), two strategy calls, and 14 days of implementation support.
+                    </div>
+                </div>
+
+                <a href="#book-call" class="btn btn-primary btn-large">Book Your Brand Clarity Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof-section fade-in">
+        <div class="container">
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <div class="stat-number">3 weeks</div>
+                    <div class="stat-label">Average delivery time</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">20-30 pages</div>
+                    <div class="stat-label">Complete brand foundation</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Custom to your business</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why This Works Section -->
+    <section class="why-works-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Why This Works</h2>
+            
+            <p class="intro-para">Most brand guides are built by designers who focus on colors and fonts. Or by copywriters who focus on clever taglines.</p>
+            <p class="emphasis-para">This is different.</p>
+            
+            <div class="content-box">
+                <p>I come from operations and strategic systems design. I understand how brands need to function in the real world—across teams, across platforms, across every client touchpoint.</p>
+                <p><strong>Your brand foundation isn't a pretty PDF. It's a strategic operational tool that makes everything else easier:</strong></p>
+                
+                <div class="benefits-simple">
+                    <div class="benefit">✅ Content creation gets faster</div>
+                    <div class="benefit">✅ Sales conversations get clearer</div>
+                    <div class="benefit">✅ Hiring and delegation get simpler</div>
+                    <div class="benefit">✅ Your business feels more yours</div>
+                </div>
+            </div>
+
+            <p class="closing-para">I've spent 14+ years helping scaling companies bridge the gap between strategic vision and operational reality. Now I'm bringing that same systems thinking to brand foundations.</p>
+            <p class="result-para">The result? A brand that's not just clear—it's built to scale.</p>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section fade-in">
+        <div class="container">
+            <div class="guarantee-box">
+                <h3>💯 My Commitment to You</h3>
+                <p>If after our discovery call, I don't believe I can deliver exceptional value for your specific situation, I'll tell you honestly and recommend other resources.</p>
+                <p>This isn't about working with everyone—it's about creating transformational brand clarity for the right clients.</p>
+                <p><strong>You'll know within 30 minutes if this is the right fit.</strong> No pressure. Just honest conversation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section fade-in">
+        <div class="container">
+            <h2 class="section-title centered">What Happens Next</h2>
+            <p class="cta-text">Ready to stop guessing and start showing up with clarity?</p>
+            <p class="cta-subtext">Book a free 30-minute Brand Clarity Call. We'll talk about where you are, where you want to go, and whether this is the right fit.</p>
+            
+            <a href="#book-call" class="btn btn-primary btn-large">Book Your Free Clarity Call</a>
+            
+            <p class="no-pressure">No pressure. No hard sell. Just a conversation about your brand and whether I can help.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Questions You Might Have</h2>
+            
+            <div class="faq-items">
+                <div class="faq-item">
+                    <h3>"I'm just starting out—shouldn't I wait until I'm more established?"</h3>
+                    <p>No. This is actually the BEST time to do this. You're about to create a ton of content, have sales conversations, and build your marketing engine. Better to have clarity NOW than to spend 6 months building inconsistent messaging and then have to redo it all. You'll save months of trial and error and inconsistent messaging.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"Can't I just do this myself?"</h3>
+                    <p>You could. But here's the reality: most founders spend 6-12 months trying to "find their voice" through trial and error. This gives you that clarity in 3 weeks. Sometimes you need an outside perspective and a proven framework. This is about speed and certainty.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"What if I don't like what you create?"</h3>
+                    <p>We build this together. The 90-minute discovery call ensures I deeply understand your business and voice. You review everything before the final delivery. And we have a revision round built in. This is collaborative, not prescriptive.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"How is this different from a branding agency?"</h3>
+                    <p>Branding agencies focus on visual identity (logos, colors, design). This is strategic brand foundation—voice, positioning, messaging, audience. It's the foundation that comes before visual design. And it's a fraction of the cost.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"What if my business pivots in 6 months?"</h3>
+                    <p>Good brands evolve. The foundation we create flexes with you. Most pivots are refinements—not complete overhauls. Your core voice and positioning stay consistent even as your offers change.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"Do you write my website copy?"</h3>
+                    <p>No—but you'll have everything you need to write it yourself (or brief a copywriter). Think of this as the instruction manual your website copywriter wishes they had.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"What format do I get this in?"</h3>
+                    <p>Google Doc (editable, shareable, easy to reference). You can convert it to Notion, PDF, or whatever format works for your team.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>"What if I need help after the 14 days of support?"</h3>
+                    <p>You can book additional coaching sessions ($500/session) or we can discuss ongoing support options. But most clients find the 14 days is plenty to get comfortable using their brand foundation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section fade-in">
+        <div class="container">
+            <h2 class="section-title centered">Let's Get You Clear</h2>
+            <p class="final-text">You've been building without a foundation for long enough.</p>
+            <p class="final-text">It's time to get crystal-clear on who you are, who you serve, and how you show up—so every conversation, every piece of content, and every client interaction feels aligned.</p>
+            
+            <a href="#book-call" class="btn btn-primary btn-large">Book Your Free Brand Clarity Call</a>
+            <p class="final-cta-note">Only 3 spots available at the introductory $1,500 rate</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="signature">
+                <p>Talk soon,</p>
+                <p class="name">Ashleigh Williams</p>
+                <p class="company">Founder, Flow Systems Consulting</p>
+            </div>
+            
+            <div class="ps">
+                <p><strong>P.S.</strong> Still deciding? Here's what brand clarity actually changes: your messaging stops shifting, your content gets easier, and you stop second-guessing how you show up.</p>
+                <p>Three weeks from now, you'll either have that clarity—or you'll still be explaining what you do seven different ways. Your call.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal Placeholder -->
+    <div id="book-call" class="modal-anchor"></div>
+
+    <script>
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
